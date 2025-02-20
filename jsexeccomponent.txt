@@ -1,0 +1,2 @@
+Javascript ensures to working in synchronous threaded language through creation phase and execution phase. 
+Creation phase ->memory is allocated to variables and ueven undefined and In execution phase-> components are further divided as memory and the functions.
