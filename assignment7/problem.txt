@@ -1,0 +1,2 @@
+Explain the difference between 'undefined' and 'not defined' with code snippets.
+
