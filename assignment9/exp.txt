@@ -1,0 +1,11 @@
+Temporal Dead Zone (TDZ):A let or const variable cannot be accessed before its declaration within its scope.
+
+-attempting to access it before declaration results in a ReferenceError.
+
+=>Difference Between let and const:
+.Both let and const have TDZ.
+.let allows reassignment, while const does not.
+
+=>Best Practices to Avoid TDZ Issues:
+ -Always declare variables before using them.
+ -Avoid unnecessary console logs before variable initialization.
