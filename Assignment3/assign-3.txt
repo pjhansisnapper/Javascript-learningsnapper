@@ -1,0 +1,7 @@
+| factorial(1) |
+| factorial(2) |
+| factorial(3) |
+| factorial(4) |
+|-------------|
+  (----call stack--)
+//once factorial 1  return to the stack it unwinds and functions will be popped off one by one.
