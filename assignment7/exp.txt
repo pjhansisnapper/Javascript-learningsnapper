@@ -1,0 +1,4 @@
+This code demonstrates the difference between undefined and not defined.
+ The variable x is declared but not assigned a value, so it logs undefined.
+ Similarly, a inside test() is declared but uninitialized, logging undefined.
+ However, b is not declared anywhere, causing a ReferenceError.
