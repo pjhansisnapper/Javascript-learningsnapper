@@ -1,0 +1,14 @@
+Hoisting is a process whereby you can access the value of a variable or a function even before it is initialized. This means that in JavaScript, declarations are moved to the top of their scope before code execution.
+To understand hoisting, we need to delve into the execution context. The execution context consists of two phases: the creation phase and the execution phase.
+
+Creation Phase:
+Variables declared with var are assigned undefined.
+Functions are assigned their definition.
+Execution Phase:
+Code is executed line by line.
+
+
+-- When we run this code with a debugger, we can see the following:
+
+Before execution, age is undefined, and showName is a function.
+After execution, age is 100, and showName logs the message.
