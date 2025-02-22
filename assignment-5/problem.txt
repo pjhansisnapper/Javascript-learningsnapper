@@ -1,0 +1,2 @@
+Write a JavaScript function that utilizes local and global variables, explaining the variable environment.Write a JavaScript function that utilizes local and global variables, explaining the variable environment.
+
