@@ -1,0 +1,31 @@
+function Person(name, age) {
+  this.name = name;
+  this.age = age;
+  this.greet = function () {
+    console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
+  };
+}
+/* Person(name, age) is a constructor function.
+When called with new, it creates a new object.
+Inside the function:
+this.name = name; assigns the name argument to the newly created object's name property.
+this.age = age; assigns the age argument to the object's age property.
+this.greet = function () { ... } creates a method inside the object that logs a greeting message.
+*/
+const person1 = new Person("Alice", 25);
+const person2 = new Person("Bob", 30);
+/*
+this.name = "jhansi"; → person1.name = "jhansi"
+this.age = 23; → person1.age = 23
+this.greet method is added to person1.
+ similarly for person2 ...*/
+
+
+THUS in This Code
+this Refers to the New Object
+
+Inside the constructor function, this refers to the specific object being created.
+Each Object Has Its Own Properties and Methods
+
+person1 and person2 have their own name, age, and greet method.
+The greet method is duplicated for each object.
