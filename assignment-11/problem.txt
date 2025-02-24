@@ -1,0 +1,2 @@
+Create a function that demonstrates closure and explain its practical use case.
+
