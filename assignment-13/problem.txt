@@ -1,0 +1,2 @@
+Implement a simple event listener that uses a callback function.
+
