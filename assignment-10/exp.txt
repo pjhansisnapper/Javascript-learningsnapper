@@ -1,0 +1,2 @@
+Inside test(), x = 20 shadows the global x = 10.
+The inner x only exists within test(), so the global x remains untouched.
