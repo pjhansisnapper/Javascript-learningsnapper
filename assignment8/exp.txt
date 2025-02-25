@@ -1,0 +1,13 @@
+let x = 5;
+function first() {
+    let x = 10;
+   function second() {
+        console.log(x); //Finds x in first() scope, NOT global scope
+    }
+
+    second();
+}
+first();
+ /*This code demonstrates scope chain resolution in JavaScript. 
+The variable x is declared globally (x = 5) but is shadowed inside first() (x = 10). 
+When second() is called, it looks for x inside its own scope first, then moves to first() where it finds x = 10, ignoring the global x = 5.*/
