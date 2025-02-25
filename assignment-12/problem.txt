@@ -1,0 +1,2 @@
+Write examples of first-class and anonymous functions, highlighting their differences.
+
