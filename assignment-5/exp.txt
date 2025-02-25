@@ -1,0 +1,14 @@
+function incrementCounter() {
+    let localCount = 0; // Local variable, resets every function call
+    globalCount++; // incrementing  the global variable
+    localCount++; // incrementing  the local variable
+
+    console.log(`globalCount: ${globalCount}, localCount: ${localCount}`);
+}
+incrementCounter();
+incrementCounter();//first function call
+since globalCount is declared globally globalcount gets incremented again whle local cant 
+as locally is intilitialized hence results no work /modifies the localCount as fun() is called outside.
+
+//THUS RESULTs in globalCount=2 and localCount as 1 in final print statement(console).
+
