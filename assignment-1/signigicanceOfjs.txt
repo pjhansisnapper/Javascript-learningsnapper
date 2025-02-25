@@ -1,0 +1,5 @@
+Javascript is a synchronous single threaded language(executes line by line)that acts like brain to the web page.
+Js execute code through search engine that creates an environment called the execution context.
+Execution context divides into 1)creation phase 2)Exceution phase.
+In creation phase js scans code and allocates memory for variables .
+In execution phase js engine executes the code line by line and updates the values of variables and executes functions.
