@@ -1,0 +1,32 @@
+setTimeout is a commonly used function in JavaScript, but it comes with several potential issues.
+
+(-----Discussed the problems and solutions for it in ans.js---)
+
+1)Losing this Context in a Method
+
+Issue: When using setTimeout inside an object method, this may refer to the global object instead of the object itself.
+
+Solution: Use an arrow function to preserve this.
+
+2)setTimeout Inside a Loop (Closure Issue)
+
+Issue: If setTimeout is used inside a loop, it may reference the final value of the loop variable.
+
+Solution: Use let instead of var to create a block-scoped variable
+
+3) ** Not Being Precise**
+ Issue: JavaScript is single-threaded, so if the event loop is busy, setTimeout might execute later than expected.
+
+Solution: Avoid blocking operations and use setInterval with timestamp checks.
+
+4) Forgetting to Clear Timeouts
+
+Issue: If a timeout is not cleared, it may cause unintended behavior.
+
+Solution: Always store the timeout ID and clear it if needed.
+
+5) Creating Too Many Uncontrolled Timers
+
+Issue: If timers are created repeatedly without proper handling, it can lead to memory leaks.
+
+Solution: Use a counter or a flag to stop execution when necessary.
