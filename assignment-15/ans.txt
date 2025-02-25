@@ -1,0 +1,32 @@
+The V8 JavaScript engine, developed by Google, is an open-source engine written in C++. It powers both Google Chrome and Node.js, enabling efficient execution of JavaScript code. Here are some of its key features:
+
+-Just-In-Time (JIT) Compilation:
+  V8 uses JIT compilation to convert JavaScript code into machine code before execution, enhancing performance.
+  It employs a two-tier JIT compilation process:
+
+-Ignition: A lightweight interpreter that quickly compiles JavaScript into bytecode.
+
+-TurboFan: An advanced compiler that converts bytecode into native machine code for faster execution.
+
+--Efficient Garbage Collection and Memory Management:
+  V8 incorporates a robust garbage collection system that automates memory allocation and cleanup.
+  It uses generational garbage collection, categorizing objects into young and old generations to optimize memory utilization.
+
+--Support for ECMAScript and New JavaScript Features:
+    V8 continuously updates to support the latest JavaScript features outlined in the ECMAScript standards.
+    Features include async/await, modules, arrow functions, spread operators, and destructuring.
+
+--Cross-Platform Compatibility:
+   V8 is designed to run on various platforms, making it suitable for both web browsers and servers.
+   It powers Google Chrome on the client side and Node.json the server side.
+
+--Performance Optimization:
+   V8 is written in C++ and is continuously improved for better performance.
+   It is portable and runs on multiple operating systems, including Mac, Windows, and Linux.
+
+--Compilation:
+   Modern JavaScript engines, including V8, compile JavaScript code rather than just interpreting it.
+
+
+
+The V8 engine's ability to compile JavaScript into machine code, manage memory efficiently, and support the latest JavaScript features makes it a pivotal technology in modern web development.
