@@ -1,0 +1,3 @@
+-map()	Transforms each element in an array (e.g., doubles each number).
+-filter()	Selects elements that meet a condition (e.g., numbers greater than 10).
+-reduce()	Combines elements into a single value (e.g., sum of numbers).
