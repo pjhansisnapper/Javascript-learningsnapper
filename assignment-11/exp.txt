@@ -1,0 +1,10 @@
+A closure is a feature in JavaScript where an inner function retains access to the outer function’s variables even after the outer function finishes executing. 
+It ensures data privacy and encapsulation.
+
+-Outer Function (createCounter): Initializes a private variable count.
+
+-Return Value (Inner Function): The outer function returns an inner function that increments count and logs it.
+
+-Creating the Counter: const counter = createCounter(); creates an instance of the createCounter function.
+
+-Calling the Inner Function: Each call to counter() increments count and logs the value.
