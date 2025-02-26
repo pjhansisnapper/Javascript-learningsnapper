@@ -1,0 +1,8 @@
+fetch() is used to make an API request, returns a promise, and correctly handles errors.
+
+for the given snippet (example):
+fetchData function worked perfectly and retrieved the data successfully.
+
+fetch(url) → Returns a Promise (which resolves with a Response object).
+.then(response => response.json()) → response.json() returns another Promise (because JSON conversion is asynchronous).
+.catch(error => console.log(error.message)) → Handles errors if fetch() fails.

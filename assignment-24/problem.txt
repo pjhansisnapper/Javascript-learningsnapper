@@ -1,0 +1,2 @@
+Implement a function using fetch() that returns a promise and handles errors correctly.
+
