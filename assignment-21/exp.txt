@@ -1,0 +1,6 @@
+JavaScript uses prototype-based inheritance, which means that objects can inherit properties and methods from other objects through a prototype chain.
+
+Prototype inheritance allows objects to reuse code efficiently.
+- Methods in prototype are shared among all instances, reducing memory usage.
+- Object.create(Person.prototype) links Student to Person for method inheritance.
+- Prototype chain ensures JavaScript finds the correct method/property when accessed.
