@@ -1,0 +1,5 @@
+Differences:
+Method	   Execution	            Arguments Passing
+call()	  Immediately	            Passed individually (comma-separated)
+apply()	  Immediately	            Passed as an array
+bind()	 Returns a new function	    Passed individually (like call())
