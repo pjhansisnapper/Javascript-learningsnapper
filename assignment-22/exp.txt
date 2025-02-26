@@ -1,0 +1,6 @@
+ 1) Iheritance (extends) → Student inherits properties & methods from Person.
+ 2) Constructor Chaining (super()) → Calls the parent class constructor inside Student.
+ 3) Method Overriding → Student customizes greet() instead of using Person's version.
+
+
+---This demonstrates object-oriented programming (OOP) principles in JavaScript efficiently. --
