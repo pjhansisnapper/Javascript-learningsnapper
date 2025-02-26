@@ -1,0 +1,12 @@
+Advantages of Currying:
+Reusability : Helps create specialized versions of a function by partially applying arguments.
+const add2 = add(2); // Partially applied function
+console.log(add2(3)(5)); // Output: 10
+
+Function Composition : Allows creating small, modular functions that can be easily composed.
+
+Avoiding Repetition : If a function is frequently used with the same first argument, we can fix that argument and reuse the function.
+
+Improved Readability & Maintainability : Code becomes more declarative and easier to understand.
+
+Better Handling of Higher-Order Functions : Currying works well with functions that take multiple arguments at different points in execution.
