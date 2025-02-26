@@ -1,0 +1,9 @@
+The async/await version looks more like normal synchronous code, making it easier to understand.
+When using .then(), nesting multiple .then() calls can make code hard to read. async/await keeps it flat and structured.
+
+
+
+- We add async before the function → This tells JavaScript we will use await inside.
+- await fetch(url) → Waits for fetch() to complete.
+- await response.json() → Waits for JSON conversion.
+- try...catch → Handles errors neatly.
