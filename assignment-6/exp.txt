@@ -1,31 +1,17 @@
-function Person(name, age) {
-  this.name = name;
-  this.age = age;
-  this.greet = function () {
-    console.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`);
-  };
-}
-/* Person(name, age) is a constructor function.
-When called with new, it creates a new object.
-Inside the function:
-this.name = name; assigns the name argument to the newly created object's name property.
-this.age = age; assigns the age argument to the object's age property.
-this.greet = function () { ... } creates a method inside the object that logs a greeting message.
-*/
-const person1 = new Person("Alice", 25);
-const person2 = new Person("Bob", 30);
-/*
-this.name = "jhansi"; → person1.name = "jhansi"
-this.age = 23; → person1.age = 23
-this.greet method is added to person1.
- similarly for person2 ...*/
+//explaining this keyword in eventlisteners
 
+(--Refer to the screenshot saved as screenshot.png for the output verification.)
 
-THUS in This Code
-this Refers to the New Object
+-> The button turns blue when clicked, and the console logs are appearing as expected. Here's what’s happening:
 
-Inside the constructor function, this refers to the specific object being created.
-Each Object Has Its Own Properties and Methods
+1) Regular Function (function() {})
+this refers to the button element (<button id="btn">Click Me!</button>).
+The button changes color to blue because this.style.backgroundColor = "blue"; is executed.
 
-person1 and person2 have their own name, age, and greet method.
-The greet method is duplicated for each object.
+2)  Arrow Function (() => {})
+this refers to the window object, not the button.
+This is because arrow functions do not have their own this; they inherit it from their surrounding scope, which in this case is the global window object.
+ - Proof from Your Console Output
+ . First log (from regular function): Shows the <button> element.
+ . Second log (from arrow function): Shows Window, confirming that this refers to the global scope.
+ . Button turns blue on click, meaning the function is correctly applied.
