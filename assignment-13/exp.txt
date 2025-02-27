@@ -1,0 +1,7 @@
+HTML: We have a button with the ID myButton.
+
+JavaScript:
+-We define the handleButtonClick function, which will be called when the button is clicked.
+-We use document.getElementById to select the button element.
+-We use addEventListener to attach the handleButtonClick function as the event listener for the "click" event.
+-When the button is clicked, the handleButtonClick function will be executed, displaying an alert with the message "Button was clicked!".
