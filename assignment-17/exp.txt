@@ -1,0 +1,8 @@
+How This Improves Readability and Reusability :
+
+Readability:
+Instead of a for loop, we use .filter() and .map() to express logic clearly.
+Each step does one thing: filtering and then transforming.
+
+Reusability:
+You can easily change the price condition in filter without affecting other parts of the code.
