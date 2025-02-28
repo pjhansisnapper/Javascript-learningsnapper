@@ -1,0 +1,16 @@
+Event Loop Works on:
+Call Stack: This is where functions are pushed when they are called and popped off when they return.
+
+Web APIs: These are browser-provided APIs (e.g., setTimeout, fetch, DOM events) that can handle asynchronous operations.
+
+Callback Queue: This is where callbacks from asynchronous operations are queued to be executed.
+
+Event Loop: This is a process that continuously checks the Call Stack and the Callback Queue. If the Call Stack is empty, 
+the Event Loop pushes the first callback from the Callback Queue to the Call Stack for execution.
+
+<--------here for the given example --->
+1. Console Logs: Start and End are printed immediately as they are synchronous operations.
+
+2. setTimeout: The callback is executed after 2000 milliseconds, printing Timeout Callback.
+
+3. fetch: Makes an HTTP request to the JSONPlaceholder API. The .then callbacks handle the response, and if there’s an error, the .catch callback handles it.
