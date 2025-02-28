@@ -1,0 +1,9 @@
+1)First-Class Functions:
+
+Named: Have a name.
+Usage: Assigned to variables, passed as arguments, returned from functions.
+
+2) Anonymous Functions:
+
+Unnamed: No name.
+Usage: Used temporarily, commonly as callbacks or in immediate execution.
