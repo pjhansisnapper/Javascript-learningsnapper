@@ -1,0 +1,2 @@
+Implement event delegation for a dynamically created list of items.
+
