@@ -1,0 +1,1 @@
+Use the Fetch API to retrieve data from an external API and display it on a webpage.
