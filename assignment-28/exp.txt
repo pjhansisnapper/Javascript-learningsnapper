@@ -1,0 +1,2 @@
+Shallow copy : Points to same object in the memory (same reference)
+Deep copy : Creates a new object (new copy) and changes doesnt affect original
