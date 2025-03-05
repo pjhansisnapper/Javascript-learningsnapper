@@ -1,0 +1,17 @@
+FACTORY PATTERN :
+The Factory Pattern is a design pattern used to create objects without exposing the exact creation logic to the client.
+Instead of using new directly, we use a factory function to create different types of objects based on conditions.
+
+SINGLETON PATTERN :
+A Singleton is a design pattern that ensures only one instance of an object exists in your whole program.
+
+Feature    	   Singleton Pattern	                          Factory Pattern
+Purpose     -> 	Ensure only one instance of a class exists.	Create multiple objects as needed.
+Focus	    ->   Single global object (shared everywhere).	Creates objects without using new.
+Usage       ->	Database connection, app config, logger.	Car maker, user creator, shape builder.
+How to call ->	Singleton.getInstance()                     	Factory.createObject(type)
+Control over ->	Instance (only one).                           	Object creation logic (many objects).
+ 
+Key Benefit  ->	Saves memory and ensures consistency.	        Hides complex object creation logic.
+ 
+ 
