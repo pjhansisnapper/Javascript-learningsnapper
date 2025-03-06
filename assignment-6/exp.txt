@@ -1,0 +1,17 @@
+//explaining this keyword in eventlisteners
+
+(--Refer to the screenshot saved as screenshot.png for the output verification.)
+
+-> The button turns blue when clicked, and the console logs are appearing as expected. Here's what’s happening:
+
+1) Regular Function (function() {})
+this refers to the button element (<button id="btn">Click Me!</button>).
+The button changes color to blue because this.style.backgroundColor = "blue"; is executed.
+
+2)  Arrow Function (() => {})
+this refers to the window object, not the button.
+This is because arrow functions do not have their own this; they inherit it from their surrounding scope, which in this case is the global window object.
+ - Proof from Your Console Output
+ . First log (from regular function): Shows the <button> element.
+ . Second log (from arrow function): Shows Window, confirming that this refers to the global scope.
+ . Button turns blue on click, meaning the function is correctly applied.

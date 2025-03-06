@@ -1,0 +1,1 @@
+Demonstrate different contexts of the 'this' keyword in JavaScript with examples.
