@@ -1,0 +1,44 @@
+body{
+    background-color: lavender;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    color: black;
+    font-size: 40px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+input{
+    padding: 5px;
+    margin: 5px;    
+}
+#randomTaskBtn{
+    background-color: rgb(16, 156, 102);
+    color: white;
+    padding: 0px;
+    margin: 5px;
+}
+/* JS*/
+.completed{ 
+    text-decoration: line-through;
+    color: grey;
+}
+.delete {
+    margin-left: 10px;
+    background-color: rgb(31, 6, 6);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 3px 7px;
+    border-radius: 5px;
+}
+
+.delete:hover {
+    background-color: rgb(31, 6, 6);
+}
+
